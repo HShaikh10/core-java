@@ -13,17 +13,7 @@ public class SwitchCaseExample {
 	
 	case 1: 
 		monthString="January";   
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	break;
+		break;
 	
 	case 2:
 		monthString="February";
