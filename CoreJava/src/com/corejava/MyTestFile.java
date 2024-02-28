@@ -14,9 +14,9 @@ public class MyTestFile {
 	public static void main(String[] args) {
 		try {
 
-			File obj = new File("TestFile.txt");
-			if (obj.exists()) {
-				System.out.println("File Created" + obj.getAbsolutePath());
+			File file = new File("TestFile.txt");
+			if (file.exists()) {
+				System.out.println("File Created" + file.getAbsolutePath());
 
 			} else {
 				System.out.println("File Exists in class");
