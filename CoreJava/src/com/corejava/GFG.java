@@ -6,6 +6,11 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.util.*;
 
+/**
+ * This class is used for myTestFile Read File Example
+ * @author Hasnain
+*/
+
 public class GFG {
 	public static List<String> readFileInList(String fileName) {
 
