@@ -3,7 +3,7 @@ package com.corejava;
 /**
  * This class is used for String, Integer, Bigdecimal Example
  * @author Hasnain
- */
+*/
 
 import java.math.BigDecimal;
 
