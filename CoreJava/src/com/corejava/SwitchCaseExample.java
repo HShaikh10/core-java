@@ -1,5 +1,7 @@
 package com.corejava;
 
+import java.util.Scanner;
+
 /**
  * This class is used for Switch Case Example
  * @author Hasnain
@@ -9,7 +11,9 @@ public class SwitchCaseExample {
 
 	public static void main(String[] args) {
 
-		int month = 2;
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Number for Switch Case");
+		int month = scanner.nextInt();
 		String monthString = "";
 
 		switch (month) {
@@ -67,8 +71,4 @@ public class SwitchCaseExample {
 		System.out.println(monthString);
 	}
 
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
