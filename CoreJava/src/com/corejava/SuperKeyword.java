@@ -7,6 +7,7 @@ package com.corejava;
 class Bird {
 
 	/* method for bird sound */
+	
 	public void birdSound() {
 
 		System.out.println("Bird make sound");
@@ -27,8 +28,8 @@ class Pigeon extends Bird {
 
 public class SuperKeyword {
 	public static void main(String[] args) {
-		Bird b = new Bird();
-		b.birdSound();
+		Bird bird = new Bird();
+		bird.birdSound();
 	}
 
 }
