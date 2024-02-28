@@ -1,4 +1,5 @@
 package com.corejava;
+
 /**
  * This class is used for Exception Handler using Throw Example
  * @author Hasnain
@@ -10,7 +11,8 @@ public class ExceptionHandlerThrow {
 		
 		/*
 		 * Static method for Arithmetic Exception 
-		 */
+		*/
+		
 		static void avg() {
 			try {
 				throw new ArithmeticException("demo");
