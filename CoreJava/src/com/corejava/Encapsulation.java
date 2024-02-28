@@ -21,9 +21,9 @@ public class Encapsulation {
 class Test {
 	public static void main(String[] args) {
 
-		Student s = new Student();
-		s.setName("vijay");
-		System.out.println(s.getName());
+		Student student = new Student();
+		student.setName("vijay");
+		System.out.println(student.getName());
 	}
 	
 }
