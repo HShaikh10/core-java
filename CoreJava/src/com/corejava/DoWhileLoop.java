@@ -16,8 +16,4 @@ public class DoWhileLoop {
 		} while (i <= 10);
 	}
 
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
