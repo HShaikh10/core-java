@@ -1,9 +1,12 @@
 package com.corejava;
 
+import java.util.Scanner;
+
 /**
  * This class is used for Array Index Number
  * @author Hasnain
  */
+
 public class ArrayIndex {
 
 	/* Static method for index number with parameters */
@@ -19,6 +22,8 @@ public class ArrayIndex {
 	}
 
 	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int IndexNumber=sc.nextInt();
 		int array[] = { 1, 2, 3, 4, 5, 6 };
 		int element = 2;
 		int index = IndexNumber(array, element);
