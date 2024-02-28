@@ -4,6 +4,7 @@ package com.corejava;
  * This class is used for Break Statement
  * @author Hasnain
  */
+
 public class BreakStatement {
 
 	public static void main(String[] args) {
@@ -16,8 +17,4 @@ public class BreakStatement {
 		}
 	}
 
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
