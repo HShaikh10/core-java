@@ -10,14 +10,14 @@ import java.util.Iterator;
 public class CollectionListIterator {
 
 	public static void main(String[] args) {
-		ArrayList<String> list = new ArrayList<String>();
-		list.add("Hello");
-		list.add("World");
-		list.add("$Test");
-		list.add("Gujarat");
+		ArrayList<String> arrayList = new ArrayList<String>();
+		arrayList.add("Hello");
+		arrayList.add("World");
+		arrayList.add("$Test");
+		arrayList.add("Gujarat");
 
-		Iterator<String> it = list.iterator();
-		System.out.println(it.next());
+		Iterator<String> iterator = arrayList.iterator();
+		System.out.println(iterator.next());
 	}
 
 }
