@@ -25,15 +25,17 @@ public class ConstructorExample {
 	}
 
 	/**
-	 *The add method do addition on variable a and b 
-	 **/
+	  *The add method do addition on variable a and b 
+	**/
+	
 	void add() {
 		total = a + b;
 	}
 
 	/**
-	 *The add method display addition of variable a and b 
+	  *The add method display addition of variable a and b 
 	 **/
+	
 	void display() {
 		System.out.println("Total of a and b is: " + total);
 	}
