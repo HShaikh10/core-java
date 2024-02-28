@@ -1,25 +1,26 @@
 package com.corejava;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 /**
  * This class is used for Comparator Example
  * @author Hasnain
- */
-import java.util.ArrayList;
-import java.util.Collections;
+*/
 
 public class TestComparator {
 	public static void main(String[] args) {
 
-		ArrayList<String> list = new ArrayList<String>();
-		list.add("Mumbai");
-		list.add("Ahmedabad");
-		list.add("Delhi");
-		list.add("Udaypur");
+		ArrayList<String> arrayList = new ArrayList<String>();
+		arrayList.add("Mumbai");
+		arrayList.add("Ahmedabad");
+		arrayList.add("Delhi");
+		arrayList.add("Udaypur");
 
-		Collections.sort(list);
+		Collections.sort(arrayList);
 		System.out.println("List is sorted in reversed order");
 
-		System.out.println(list);
+		System.out.println(arrayList);
 
 	}
 
