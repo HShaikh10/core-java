@@ -3,7 +3,7 @@ package com.corejava;
 /**
  * This class is used for star pattern Example
  * @author Hasnain
- */
+*/
 
 public class StarPatternProgram {
 
@@ -21,8 +21,4 @@ public class StarPatternProgram {
 		}
 	}
 
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
