@@ -11,6 +11,7 @@ public class StaticMethods {
 	static int y;
 
 	/* Static method for function */
+	
 	static void func(int z) {
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
