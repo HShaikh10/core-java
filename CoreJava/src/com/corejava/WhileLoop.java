@@ -4,6 +4,7 @@ package com.corejava;
  * This class is used for While Loop Example
  * @author Hasnain
  */
+
 public class WhileLoop {
 
 	public static void main(String[] args) {
@@ -15,8 +16,4 @@ public class WhileLoop {
 		}
 	}
 
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
