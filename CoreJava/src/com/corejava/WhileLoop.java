@@ -15,4 +15,8 @@ public class WhileLoop {
 		}
 	}
 
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

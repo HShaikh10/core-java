@@ -67,4 +67,8 @@ public class SwitchCaseExample {
 		System.out.println(monthString);
 	}
 
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

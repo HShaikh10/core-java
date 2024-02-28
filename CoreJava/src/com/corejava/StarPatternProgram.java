@@ -21,4 +21,8 @@ public class StarPatternProgram {
 		}
 	}
 
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

@@ -10,4 +10,8 @@ public class HelloWorld {
 		System.out.println("Hello World");
 	}
 
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
