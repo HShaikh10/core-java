@@ -18,8 +18,4 @@ public class ContinueStatement {
 		}
 	}
 
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
