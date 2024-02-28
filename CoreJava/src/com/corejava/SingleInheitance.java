@@ -6,7 +6,9 @@ package com.corejava;
  */
 
 class Animal {
+	
 	/* eat method for eating */
+	
 	void eat() {
 		System.out.println("eating...");
 	}
@@ -15,6 +17,7 @@ class Animal {
 class Dog extends Animal {
 
 	/* eat method for barking */
+	
 	void bark() {
 		System.out.println("barking...");
 	}
@@ -22,9 +25,9 @@ class Dog extends Animal {
 
 class TestInheritance {
 	public static void main(String args[]) {
-		Dog d = new Dog();
-		d.bark();
-		d.eat();
+		Dog dog = new Dog();
+		dog.bark();
+		dog.eat();
 	}
 	
 }
