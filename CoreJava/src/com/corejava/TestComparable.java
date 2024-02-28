@@ -1,11 +1,12 @@
 package com.corejava;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 /**
  * This class is used for Comparable Example
  * @author Hasnain
  */
-import java.util.ArrayList;
-import java.util.Collections;
 
 class Sample implements Comparable<Sample> {
 
@@ -14,11 +15,13 @@ class Sample implements Comparable<Sample> {
 	private int year;
 
 	/* method for compare variable */
+	
 	public int compareTo(Sample m) {
 		return this.year - m.year;
 	}
 
 	/* method for compare variables */
+	
 	public Sample(String nm, double rt, int yr) {
 		this.name = nm;
 		this.rating = rt;
