@@ -6,6 +6,7 @@ import java.util.Scanner;
  * This class is used for Calculator Example
  * @author Hasnain
  */
+
 public class Calculator {
 
 	public static void main(String[] args) {
