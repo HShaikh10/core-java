@@ -10,22 +10,22 @@ abstract class Animal {
 	public abstract void animalSound();
 
 	/* Sleep Method */
-
 	public void sleep() {
 		System.out.println("Cat");
 	}
+	
 }
 
-class Cat extends Animal {
+public class Cat extends Animal {
 
 	/* Animal Sound method */
-
 	public void animalSound() {
 		System.out.println("Cat");
 	}
+	
 }
 
-class Main {
+public class Main {
 	public static void main(String[] args) {
 		Cat cat = new Cat();
 		cat.animalSound();
