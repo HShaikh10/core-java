@@ -8,7 +8,7 @@ package com.corejava;
 public class Shape {
 	
 	/* draw method for drawing */
-	void draw() {
+	public void draw() {
 		System.out.println("drawing...");
 	}
 	
