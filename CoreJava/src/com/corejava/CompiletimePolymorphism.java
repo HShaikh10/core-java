@@ -8,28 +8,23 @@ package com.corejava;
 public class CompiletimePolymorphism {
 
 	public static void main(String args[]) {
-		CompileTimePloymorphismExample comileTimePolymorphismExample = new CompileTimePloymorphismExample();
-		comileTimePolymorphismExample.display();
-		comileTimePolymorphismExample.display("Polymorphism");
+		CompileTimePolymorphismExample compileTimePolymorphismExample = new CompileTimePloymorphismExample();
+		compileTimePolymorphismExample.display();
+		compileTimePolymorphismExample.display("Polymorphism");
 	}
 
 }
 
-class CompileTimePloymorphismExample {
+public class CompileTimePloymorphismExample {   
 
-	/*
-	 * The display method is used for without parameter example
-	*/
 	
-	void display() {
+	 /* The display method is used for without parameter example */		
+	public void display() {
 		System.out.println("In Display without parameter");
 	}
 
-	/*
-	 * The display method is used for with parameter example
-	*/
-	
-	void display(String value) {
+	/* The display method is used for with parameter example */	
+	public void display(String value) {
 		System.out.println("In Display with parameter" + value);
 	}
 
