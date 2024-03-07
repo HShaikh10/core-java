@@ -8,7 +8,7 @@ package com.corejava;
 public class Animal {
 	
 	/* method for eat */	
-	void eat() {
+	public void eat() {
 		System.out.println("eating...");
 	}
 	
@@ -17,7 +17,7 @@ public class Animal {
 public class Dog extends Animal {
 	
 	/* method for bark */	
-	void bark() {
+	public void bark() {
 		System.out.println("barking...");
 	}
 	
@@ -26,7 +26,7 @@ public class Dog extends Animal {
 public class BabyDog extends Dog {
 	
 	/* method for weep */	
-	void weep() {
+	public void weep() {
 		System.out.println("weeping...");
 	}
 	
