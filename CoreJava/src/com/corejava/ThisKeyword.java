@@ -8,11 +8,10 @@ package com.corejava;
 public class ThisKeyword {
 
 	int x;
-
+    /* Methos for This Keyword */
 	public ThisKeyword(int x) {
 		this.x = x;
 	}
-
 	public static void main(String[] args) {
 		ThisKeyword th = new ThisKeyword(5);
 		System.out.println("Value of x is: " + th.x);
