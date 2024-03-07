@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Calculator {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 
 		double principle;
 		double rate;
@@ -18,13 +18,13 @@ public class Calculator {
 		double emi;
 
 		System.out.println("Enter Principle Amount");
-		principle = sc.nextFloat();
+		principle = scanner.nextFloat();
 
 		System.out.println("Enter Rate: ");
-		rate = sc.nextFloat();
+		rate = scanner.nextFloat();
 
 		System.out.println("Enter time: ");
-		time = sc.nextFloat();
+		time = scanner.nextFloat();
 
 		rate = rate / (12 * 100);
 		time = time * 12;
