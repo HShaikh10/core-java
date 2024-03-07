@@ -7,6 +7,7 @@ package com.corejava;
 public class ParametarizedConstructor {
 
 	String cities;
+	
 	/* Parameterized Constructor */
 	public ParametarizedConstructor(String c) {
 		cities = c;
