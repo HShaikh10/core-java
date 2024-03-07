@@ -7,13 +7,10 @@ package com.corejava;
 
 public class ExceptionHandlerThrow {
 
-	class Test {
+	public class Test {
 		
-		/*
-		 * Static method for Arithmetic Exception 
-		*/
-		
-		static void avg() {
+		/* Static method for Arithmetic Exception */
+		public static void avg() {
 			try {
 				throw new ArithmeticException("demo");
 			} catch (ArithmeticException e) {
