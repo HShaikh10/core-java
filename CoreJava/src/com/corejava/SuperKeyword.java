@@ -8,7 +8,6 @@ public class Bird {
 
 	/* method for bird sound */
 	public void birdSound() {
-
 		System.out.println("Bird make sound");
 	}
 
