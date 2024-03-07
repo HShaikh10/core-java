@@ -33,6 +33,7 @@ public class Cat extends Animal {
 }
 
 public class TestInheritance {
+	
 	public static void main(String args[]) {
 		Cat cat = new Cat();
 		cat.meow();
