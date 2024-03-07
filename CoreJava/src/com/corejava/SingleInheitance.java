@@ -5,25 +5,26 @@ package com.corejava;
  * @author Hasnain
  */
 
-class Animal {
+public class Animal {
 	
 	/* eat method for eating */
-	
-	void eat() {
+	public void eat() {
 		System.out.println("eating...");
 	}
+	
 }
 
-class Dog extends Animal {
+public class Dog extends Animal {
 
 	/* eat method for barking */
-	
-	void bark() {
+	public void bark() {
 		System.out.println("barking...");
 	}
+	
 }
 
-class TestInheritance {
+public class TestInheritance {
+	
 	public static void main(String args[]) {
 		Dog dog = new Dog();
 		dog.bark();
