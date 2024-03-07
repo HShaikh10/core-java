@@ -10,7 +10,7 @@ import java.util.HashSet;
 public class SetCollection {
 
 	public static void main(String[] args) {
-		HashSet<String> StringHashSet = new HashSet<String>();
+		HashSet<String> stringHashSet = new HashSet<String>();
 		StringHashSet.add("BMW");
 		StringHashSet.add("Volvo");
 		StringHashSet.add("Mazda");
