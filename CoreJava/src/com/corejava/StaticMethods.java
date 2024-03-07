@@ -16,13 +16,12 @@ public class StaticMethods {
 		System.out.println("y = " + y);
 		System.out.println("z = " + z);
 	}
-
+	
 	/* Static method for print */
     public static void {
 		System.out.println("Running static initialization block.");
 		y = x + 5;
 	}
-
 	public static void main(String args[]) {
 		func(8);
 	}
