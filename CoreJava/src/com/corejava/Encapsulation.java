@@ -20,9 +20,9 @@ public class Encapsulation {
 public class Test {
 
     public static void main(String[] args) {
-        Encapsulation obj = new Encapsulation();
-        obj.setName("Vijay");
-        System.out.println(obj.getName());
+        Encapsulation encapsulation = new Encapsulation();
+        encapsulation.setName("Vijay");
+        System.out.println(encapsulation.getName());
     }
 
 }
