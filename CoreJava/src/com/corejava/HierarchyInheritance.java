@@ -5,37 +5,34 @@ package com.corejava;
  * @author Hasnain
  */
 
-class Animal {
+public class Animal {
 
 	/* Method for eat */
-	
-	void eat() {
+	public void eat() {
 		System.out.println("eating...");
 	}
 
 }
 
-class Dog extends Animal {
+public class Dog extends Animal {
 
 	/* Method for bark */
-	
-	void bark() {
+	public void bark() {
 		System.out.println("barking...");
 	}
 
 }
 
-class Cat extends Animal {
+public class Cat extends Animal {
 
 	/* Method for meow */
-	
-	void meow() {
+	public void meow() {
 		System.out.println("meowing...");
 	}
 
 }
 
-class TestInheritance3 {
+public class TestInheritance {
 	public static void main(String args[]) {
 		Cat cat = new Cat();
 		cat.meow();
