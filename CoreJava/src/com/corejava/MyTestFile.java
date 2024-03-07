@@ -13,34 +13,25 @@ public class MyTestFile {
 
 	public static void main(String[] args) {
 		try {
-
 			File file = new File("TestFile.txt");
 			if (file.exists()) {
 				System.out.println("File Created" + file.getAbsolutePath());
-
 			} else {
 				System.out.println("File Exists in class");
 			}
-
 		} catch (Exception e) {
-
 			System.out.println("Erorr");
 			e.printStackTrace();
 		}
-		Scanner sc = new Scanner(System.in);
-
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter username");
-		String userName = sc.nextLine();
-
+		String userName = scanner.nextLine();
 		System.out.println("Enter city");
-		String city = sc.nextLine();
-
+		String city = scanner.nextLine();
 		System.out.println("State");
-		String state = sc.nextLine();
-
+		String state = scanner.nextLine();
 		System.out.println("Country");
-		String country = sc.nextLine();
-
+		String country = scanner.nextLine();
 		System.out.println("Your name is: " + userName);
 		System.out.println("Your city is: " + city);
 		System.out.println("Your state is: " + state);
