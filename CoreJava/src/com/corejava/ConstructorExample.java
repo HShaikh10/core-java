@@ -15,35 +15,30 @@ public class ConstructorExample {
 
 	public ConstructorExample() {
 
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
+		
 		System.out.println("Enter First Number: ");
-		a = sc.nextInt();
+		a = scanner.nextInt();
 
 		System.out.println("Enter Second Number: ");
-		b = sc.nextInt();
-		sc.close();
+		b = scanner.nextInt();
+		scanner.close();
 	}
 
-	/**
-	  *The add method do addition on variable a and b 
-	**/
-	
-	void add() {
+	/* The add method do addition on variable a and b */
+	public void add() {
 		total = a + b;
 	}
 
-	/**
-	  *The add method display addition of variable a and b 
-	 **/
-	
-	void display() {
+	/*  The add method display addition of variable a and b */
+	public void display() {
 		System.out.println("Total of a and b is: " + total);
 	}
 
 	public static void main(String[] args) {
-		ConstructorExample obj = new ConstructorExample();
-		obj.add();
-		obj.display();
+		ConstructorExample constructorExample = new ConstructorExample();
+		constructorExample.add();
+		constructorExample.display();
 	}
 
 }
