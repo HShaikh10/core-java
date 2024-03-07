@@ -5,47 +5,44 @@ package com.corejava;
  * @author Hasnain
  */
 
-class Shape {
+public class Shape {
 	
 	/* draw method for drawing */
-	
 	void draw() {
 		System.out.println("drawing...");
 	}
 	
 }
 
-class Rectangle extends Shape {
+public class Rectangle extends Shape {
 	
 	/* draw method for drawing rectangle */
-	
-	void draw() {
+	public static void draw() {
 		System.out.println("drawing rectangle...");
 	}
 	
 }
 
-class Circle extends Shape {
+public class Circle extends Shape {
 	
 	/* draw method for drawing circle */
-	
-	void draw() {
+	public static void draw() {
 		System.out.println("drawing circle...");
 	}
 	
 }
 
-class Triangle extends Shape {
+public class Triangle extends Shape {
 	
 	/* draw method for drawing triangle */
-	
-	void draw() {
+	public static void draw() {
 		System.out.println("drawing triangle...");
 	}
 	
 }
 
-class TestPolymorphism2 {
+public class TestPolymorphism2 {
+	
 	public static void main(String args[]) {
 		Shape shape;
 		shape = new Rectangle();
