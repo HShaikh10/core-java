@@ -7,6 +7,7 @@ import java.util.Iterator;
  * This class is used for Collection List Iteraor Example
  * @author Hasnain
  */
+
 public class CollectionListIterator {
 
 	public static void main(String[] args) {
