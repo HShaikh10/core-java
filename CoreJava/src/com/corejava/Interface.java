@@ -31,6 +31,7 @@ public class Circle implements Drawable {
 }
 
 public class TestInterface1 {
+	
 	public static void main(String args[]) {
 		Drawable drawable = new Circle();
 		drawable.draw();
