@@ -10,12 +10,10 @@ import java.util.Scanner;
 public class SwitchCaseExample {
 
 	public static void main(String[] args) {
-
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter Number for Switch Case");
 		int month = scanner.nextInt();
 		String monthString = "";
-
 		switch (month) {
 
 		case 1:
@@ -65,6 +63,10 @@ public class SwitchCaseExample {
 		case 12:
 			monthString = "December";
 			break;
+			
+		default:
+             monthString = "Invalid month";
+             break;
 
 		}
 
