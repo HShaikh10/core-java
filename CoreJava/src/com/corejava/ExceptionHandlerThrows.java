@@ -6,12 +6,9 @@ package com.corejava;
  */
 
 public class ExceptionHandlerThrows {
-
-	class Test {
 		
 		/* static method for arithmetic exception using throws keyword */
-		
-		static void check() throws ArithmeticException {
+		public static void check() throws ArithmeticException {
 			System.out.println("Inside check function");
 			throw new ArithmeticException("demo");
 		}
@@ -23,6 +20,5 @@ public class ExceptionHandlerThrows {
 				System.out.println("caught" + e);
 			}
 		}
-	}
 
 }
