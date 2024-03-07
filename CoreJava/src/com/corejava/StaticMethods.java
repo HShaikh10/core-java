@@ -7,20 +7,18 @@ package com.corejava;
 
 public class StaticMethods {
 
-	static int x = 10;
-	static int y;
+	public static int x = 10;
+	public static int y;
 
 	/* Static method for function */
-	
-	static void func(int z) {
+	public static void func(int z) {
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
 		System.out.println("z = " + z);
 	}
 
 	/* Static method for print */
-
-	static {
+    public static void {
 		System.out.println("Running static initialization block.");
 		y = x + 5;
 	}
