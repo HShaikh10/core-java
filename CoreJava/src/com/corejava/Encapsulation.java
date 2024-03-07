@@ -1,6 +1,6 @@
 package com.corejava;
 
-/**
+/*
  * This class is used for Encapsulation Example
  * @author Hasnain
  */
@@ -16,9 +16,11 @@ public class Encapsulation {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
 }
 
-class Test {
+public class Test {
+	
 	public static void main(String[] args) {
 
 		Student student = new Student();
