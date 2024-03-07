@@ -16,9 +16,8 @@ public class CollectionListIterator {
 		arrayList.add("World");
 		arrayList.add("$Test");
 		arrayList.add("Gujarat");
-
-		Iterator<String> iterator = arrayList.iterator();
-		System.out.println(iterator.next());
+		Iterator<String> stringIterator = arrayList.iterator();
+		System.out.println(stringIterator.next());
 	}
 
 }
