@@ -10,16 +10,13 @@ import java.util.HashSet;
 public class SetCollection {
 
 	public static void main(String[] args) {
-
-		HashSet<String> hashSet = new HashSet<String>();
-		hashSet.add("BMW");
-		hashSet.add("Volvo");
-		hashSet.add("Mazda");
-		hashSet.add("Volvo");
-		hashSet.add("Ford");
-
-		System.out.println(hashSet);
-
+		HashSet<String> StringHashSet = new HashSet<String>();
+		StringHashSet.add("BMW");
+		StringHashSet.add("Volvo");
+		StringHashSet.add("Mazda");
+		StringHashSet.add("Volvo");
+		StringHashSet.add("Ford");
+		System.out.println(StringHashSet);
 	}
 
 }
