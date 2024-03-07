@@ -12,7 +12,6 @@ public class ExceptionHandlerThrows {
 			System.out.println("Inside check function");
 			throw new ArithmeticException("demo");
 		}
-
 		public static void main(String args[]) {
 			try {
 				check();
