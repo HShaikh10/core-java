@@ -10,22 +10,22 @@ import java.math.BigDecimal;
 public class StringMethod2 {
 
 	public static void main(String[] args) {
-		String s1 = "Radar";
-		String s2 = "Column";
+		String string1 = "Radar";
+		String string2 = "Column";
 
-		System.out.println(s1 == s2);
-		System.out.println(s1.equals(s2));
+		System.out.println(string1 == string2);
+		System.out.println(string1.equals(string2));
 
-		Integer i1 = 16;
-		Integer i2 = 16;
-		System.out.println(i1 == i2);
-		System.out.println(i1.equals(i2));
+		Integer integer1 = 16;
+		Integer integer2 = 16;
+		System.out.println(integer1 == integer2);
+		System.out.println(integer1.equals(integer2));
 
-		BigDecimal decimal1 = new BigDecimal("10.10");
-		BigDecimal decimal2 = new BigDecimal("20.00");
+		BigDecimal bigDecimal1 = new BigDecimal("10.10");
+		BigDecimal bigDecimal2 = new BigDecimal("20.00");
 
-		System.out.println(decimal1 == decimal2);
-		System.out.println(decimal1.equals(decimal2));
+		System.out.println(bigDecimal1 == bigDecimal2);
+		System.out.println(bigDecimal1.equals(bigDecimal2));
 
 	}
 
