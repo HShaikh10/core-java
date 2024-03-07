@@ -9,7 +9,6 @@ public class ParametarizedConstructor {
 	String cities;
 
 	/* Parameterized Constructor */
-	
 	public ParametarizedConstructor(String c) {
 		cities = c;
 		System.out.println("Cities: " + c);
