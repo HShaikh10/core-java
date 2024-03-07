@@ -15,13 +15,11 @@ class Sample implements Comparable<Sample> {
 	private int year;
 
 	/* method for compare variable */
-	
 	public int compareTo(Sample m) {
 		return this.year - m.year;
 	}
 
 	/* method for compare variables */
-	
 	public Sample(String nm, double rt, int yr) {
 		this.name = nm;
 		this.rating = rt;
@@ -43,18 +41,18 @@ class Sample implements Comparable<Sample> {
 
 }
 
-class Main {
+public class Main {
 
 	public static void main(String[] args) {
-		ArrayList<Sample> al = new ArrayList<Sample>();
-		al.add(new Sample("Sample", 9, 2010));
-		al.add(new Sample("Sample2", 10, 2005));
+		ArrayList<Sample> arrayList = new ArrayList<Sample>();
+		arrayList.add(new Sample("Sample", 9, 2010));
+		arrayList.add(new Sample("Sample2", 10, 2005));
 
-		Collections.sort(al);
+		Collections.sort(arrayList);
 
 		System.out.println("after sorting");
 
-		for (Sample movie : al) {
+		for (Sample movie : arrayList) {
 			System.out.println(movie.getName() + " " + movie.getYear() + " " + movie.getRating() + " ");
 		}
 
