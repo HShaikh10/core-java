@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * This class is used for Switch Case Example
+ * 
  * @author Hasnain
  */
 
@@ -53,7 +54,7 @@ public class SwitchCaseExample {
 			break;
 
 		case 10:
-			monthString = "October";
+			monthString = "October"; 
 			break;
 
 		case 11:
@@ -63,12 +64,12 @@ public class SwitchCaseExample {
 		case 12:
 			monthString = "December";
 			break;
-			
+
 		default:
-             monthString = "Invalid month";
-             break;
-}
-             System.out.println(monthString);
+			monthString = "Invalid month";
+			break;
+		}
+		System.out.println(monthString);
 	}
 
 }
