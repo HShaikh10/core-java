@@ -36,7 +36,7 @@ public class MyTestFile {
 		System.out.println("Your city is: " + city);
 		System.out.println("Your state is: " + state);
 		System.out.println("Your counry is: " + country);
-        scanner.close();
+         scanner.close();
 	}
 	
 }
