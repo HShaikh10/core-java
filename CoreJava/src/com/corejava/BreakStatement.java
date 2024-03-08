@@ -26,6 +26,7 @@ public class BreakStatement {
         } else {
             System.out.println("Loop completed without meeting the condition.");
         }
+        scanner.close();
     }
     
 }
