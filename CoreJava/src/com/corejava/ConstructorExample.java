@@ -20,10 +20,12 @@ public class ConstructorExample {
 		scanner.close();
 	}
 	int total;
+	
 	/* The add method do addition on variable a and b */
 	public void add() {
 		total = a + b;
 	}
+	
 	/*  The add method display addition of variable a and b */
 	public void display() {
 		System.out.println("Total of a and b is: " + total);
