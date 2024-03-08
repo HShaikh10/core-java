@@ -17,6 +17,7 @@ public class IfElse {
 		} else {
 			System.out.println("Age is less than 18 years ");
 		}
+        scanner.close();
 	}
 
 }
