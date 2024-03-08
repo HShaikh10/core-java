@@ -30,6 +30,7 @@ public class ArrayIndex {
         } else {
             System.out.println("Element not found in the array.");
         }
+        scanner.close();
     }
 
 }
